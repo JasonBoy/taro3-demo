@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import { View, Text } from '@tarojs/components'
 import './index.scss'
-import { posterConfig } from '../mocks/posterConfig';
-import Poster from 'wxa-plugin-canvas/miniprogram_dist/poster/poster';
+import { posterConfig } from '../../mocks/posterConfig';
+import Poster from '../../wxa-plugin-canvas/poster/poster';
 
 export default class Index extends Component {
-  config = {
+  /*config = {
     title: 'my index',
     usingComponents: {
       poster: 'wxa-plugin-canvas/poster'
     },
-  }
+  }*/
 
   componentDidMount () { }
 
